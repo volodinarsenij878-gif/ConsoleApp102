@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Program59
+{
+    internal class Program
+    {
+        static void Main()
+        {
+            bool condition = true;
+            // Преобразуем число в строку — теперь обе ветки string
+            string x = condition ? 10.ToString() : "text";
+            Console.WriteLine(x);           // 10
+            Console.WriteLine(x.GetType()); // System.String
+        }
+    }
+}
